@@ -1,5 +1,5 @@
 
 function translateTo(target) {
-    localStorage.setItem('preferedLanguage', target)
+    localStorage.setItem('preferedLouis1001Language', target)
     location.replace(target)
 }
