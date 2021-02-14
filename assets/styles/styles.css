@@ -14,6 +14,11 @@ body {
     font-size: 1.2rem;
 }
 
+*::selection {
+    background-color: rgb(56, 56, 56);
+    color: var(--heading-col)
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -47,6 +52,9 @@ header img {
     border-radius: 100%;
 }
 
+img {
+    user-select: none;
+}
 
 /* Translation Button */
 .translate {
@@ -74,6 +82,7 @@ header img {
 
 #top-banner>section {
     width: 50%;
+    padding: 2vh 0;
 }
 
 .small-detail {
@@ -114,4 +123,9 @@ header img {
 
 #related-skills ul {
     flex-direction: row-reverse;
+}
+
+/* Footer */
+footer {
+    min-height: 80px;
 }
