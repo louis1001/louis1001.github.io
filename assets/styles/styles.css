@@ -76,6 +76,10 @@ header img {
     width: 50%;
 }
 
+.small-detail {
+    font-size: .7em;
+}
+
 /* Skills Section */
 
 #skills {
@@ -103,7 +107,7 @@ header img {
     margin: 0 .1em;
 }
 
-/* Projects Section */
+/* Related Skills Section */
 #related-skills h3 {
     text-align: right;
 }
