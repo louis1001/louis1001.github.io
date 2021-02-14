@@ -1,36 +1,95 @@
 html {
     --background-col: rgb(19, 19, 22);
-    --heading-col: rgb(247, 236, 220);
-    --sub-heading-col: rgb(147, 149, 172);
+    --main-col: rgb(209, 174, 110);
+    --heading-col: rgb(219, 151, 95);
+    --sub-heading-col: rgb(199, 207, 212);
+    --sec-heading-col: rgb(255 249 234);
 }
-
 
 body {
     background: var(--background-col);
+    color: var(--main-col);
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
+    margin: 100px 0;
 }
 
-header h1 {
+h1 {
     font-size: 5rem;
     font-family: 'Amaranth', sans-serif;
     margin: .1em;
     color: var(--heading-col);
 }
 
-header h2 {
+h2 {
     font-size: 1.8rem;
     font-family: 'Roboto', sans-serif;
     color: var(--sub-heading-col);
     text-align: left;
 }
 
+h3 {
+    color: var(--sec-heading-col);
+    font-weight: 100;
+    text-decoration: underline;
+    font-size: 1.8rem;
+}
+
 header img {
     max-width: 200px;
     border-radius: 100%;
+}
+
+/* Top Banner */
+#top-banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+#top-banner>section {
+    width: 50%;
+}
+
+/* Skills Section */
+
+#skills {
+    border-right: 1px solid white;
+}
+
+#top-banner ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.skill {
+    list-style: none;
+    margin: 30px;
+}
+
+.skill * {
+    vertical-align: middle;
+}
+
+.skill-icon {
+    height: 1em;
+    filter: invert(1);
+    margin: 0 .1em;
+}
+
+/* Projects Section */
+#related-skills h3 {
+    text-align: right;
+}
+
+#related-skills ul {
+    flex-direction: row-reverse;
 }
