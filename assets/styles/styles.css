@@ -59,7 +59,6 @@ header img {
     color: rgb(26, 37, 56);
 
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
 
     /* reset */
     background: var(--main-col);
