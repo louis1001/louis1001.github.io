@@ -47,6 +47,25 @@ header img {
     border-radius: 100%;
 }
 
+
+/* Translation Button */
+.translate {
+    position: absolute;
+    top: 20px;
+
+    min-width: 6rem;
+    padding: 5px 10px;
+
+    color: rgb(26, 37, 56);
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+    /* reset */
+    background: var(--main-col);
+    border: none;
+}
+
 /* Top Banner */
 #top-banner {
     display: flex;

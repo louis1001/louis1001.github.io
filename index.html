@@ -7,7 +7,12 @@
 </head>
 <body>
     <script>
-        location.replace('/en.html')
+        preferedLanguage = localStorage.getItem("preferedLanguage")
+        if (!preferedLanguage) {
+            preferedLanguage = '/en.html'
+            localStorage.setItem('preferedLanguage', preferedLanguage)
+        }
+        location.replace(preferedLanguage)
     </script>
 </body>
 </html>
