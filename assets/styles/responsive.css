@@ -1,0 +1,100 @@
+
+@media screen and (max-width: 720px) {
+    main {
+        padding: 0 10px;
+    }
+
+    #career {
+        text-align: right;
+    }
+
+    #top-banner {
+        display: block;
+    }
+
+    #top-banner>section {
+        width: auto;
+    }
+
+    #skills {
+        border: none;
+    }
+
+    #contact {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    html {
+        font-size: 16px;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    main {
+        padding: 0;
+    }
+    
+    header {
+        padding: 0 5px;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    #top-banner ul {
+        display: block;
+    }
+
+    #top-banner .skill {
+        margin: 20px 40px;
+    }
+
+    #top-banner li:nth-child(even) {
+        direction: rtl;
+        text-align: right;
+    }
+
+    #top-banner li .skill-name {
+        direction: ltr;
+    }
+
+    #related-skills h3 {
+        text-align: center;
+    }
+
+    #contact-container li {
+        margin-bottom: 20px;
+    }
+
+    #contact h4 {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    #top-banner ul {
+        padding: 0 15px;
+    }
+
+    #top-banner .skill {
+        margin: 10px 0;
+    }
+
+    #contact ul {
+        margin: 0;
+        padding: 0;
+    }
+}
