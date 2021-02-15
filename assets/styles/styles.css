@@ -3,7 +3,9 @@ html {
     --main-col: rgb(209, 174, 110);
     --heading-col: rgb(219, 151, 95);
     --sub-heading-col: rgb(199, 207, 212);
-    --sec-heading-col: rgb(255 249 234);
+    --sec-heading-col: rgb(170 201 241);
+    --h4-col: rgb(124 150 195);
+    --link-col: rgb(100, 123, 224);
 }
 
 body {
@@ -12,6 +14,19 @@ body {
     font-family: 'Source Code Pro', monospace;
     font-weight: bold;
     font-size: 1.2rem;
+}
+
+main {
+    padding: 0 40px;
+}
+
+a {
+    color: var(--link-col);
+    text-decoration: none;
+}
+
+a:visited {
+    color: unset;
 }
 
 *::selection {
@@ -47,6 +62,14 @@ h3 {
     font-size: 1.8rem;
 }
 
+h4 {
+    color: var(--h4-col);
+    font-weight: lighter;
+    text-decoration: .08em underline wavy;
+    margin: 10px 0;
+    font-style: italic;
+}
+
 header img {
     max-width: 200px;
     border-radius: 100%;
@@ -77,7 +100,6 @@ img {
 #top-banner {
     display: flex;
     justify-content: space-between;
-    padding: 0 40px;
 }
 
 #top-banner>section {
@@ -125,7 +147,26 @@ img {
     flex-direction: row-reverse;
 }
 
+/* Contact Section */
+#contact {
+    margin-top: 100px;
+    max-width: max(700px, 50vw);
+}
+
+#contact-container {
+    display: flex;
+    justify-content: center;
+}
+
+#contact-container li {
+    list-style: none;
+    text-align: center;
+    padding: 0 20px;
+    min-width: calc(100%/3);
+}
+
 /* Footer */
 footer {
-    min-height: 80px;
+    text-align: right;
+    margin-top: 80px;
 }
