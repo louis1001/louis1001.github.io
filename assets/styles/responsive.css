@@ -39,7 +39,8 @@
     }
     
     header {
-        padding: 0 5px;
+        padding: 5px;
+        padding-bottom: 30px;
     }
 
     h3 {
