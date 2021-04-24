@@ -123,6 +123,51 @@ img {
     font-size: .7em;
 }
 
+/* Job Section */
+#work-desc {
+    font-size: 0.9rem;
+    max-width: 260px;
+    margin-top: -60px;
+    margin-left: -35px;
+    background: #ffffff05;
+    box-shadow: 5px 5px 0 1px #0001;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#work-desc h4 {
+    font-size: 1em;
+}
+
+#work-desc>*{
+    display: block;
+    width: auto;
+    text-align: left;
+}
+
+#work-desc img {
+    vertical-align: middle;
+}
+
+#work-desc a, #work-desc span {
+    display: inline;
+    font-size: 1.2em;
+    color: var(--sec-heading-col);
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: var(--sub-heading-col);
+}
+
+#work-desc a:hover {
+    text-decoration-style: wavy;
+}
+
+#work-desc h4 {
+    color: var(--sec-heading-darker-col);
+    margin-top: .5rem;
+    margin-bottom: 0rem;
+}
+
 /* Skills Section */
 
 #skills {

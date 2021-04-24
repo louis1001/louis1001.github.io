@@ -8,6 +8,10 @@
         text-align: right;
     }
 
+    #work-desc {
+        margin: 0;
+    }
+
     #top-banner {
         display: block;
     }
