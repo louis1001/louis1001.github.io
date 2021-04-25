@@ -85,6 +85,18 @@ h4 {
 header img {
     max-width: 200px;
     border-radius: 100%;
+
+    animation: 120s 20s infinite linear rotate-slowly;
+}
+
+@keyframes rotate-slowly {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 img {
