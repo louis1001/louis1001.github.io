@@ -86,7 +86,7 @@ header img {
     max-width: 200px;
     border-radius: 100%;
 
-    animation: 120s 20s infinite linear rotate-slowly;
+    animation: 240s 20s infinite linear rotate-slowly;
 }
 
 @keyframes rotate-slowly {
