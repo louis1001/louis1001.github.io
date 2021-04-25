@@ -136,7 +136,7 @@ img {
 }
 
 /* Job Section */
-#work-desc {
+#job-desc {
     font-size: 0.9rem;
     max-width: 260px;
     margin-top: -60px;
@@ -147,17 +147,17 @@ img {
     padding: 10px;
 }
 
-#work-desc>*{
+#job-desc>*{
     display: block;
     width: auto;
     text-align: left;
 }
 
-#work-desc img {
+#job-desc img {
     vertical-align: middle;
 }
 
-#work-desc a, #work-desc span {
+#job-desc a, #job-desc span {
     display: inline;
     font-size: 1.2em;
     color: var(--sec-heading-col);
@@ -166,17 +166,17 @@ img {
     text-decoration-color: var(--sub-heading-col);
 }
 
-#work-desc a:hover {
+#job-desc a:hover {
     text-decoration-style: wavy;
 }
 
-#work-desc strong {
+#job-desc strong {
     display: block;
     font-size: 1em;
     color: var(--sec-heading-darker-col);
 }
 
-#work-desc .work-sec:last-child {
+#job-desc .job-sec:last-child {
     margin-top: 15px;
 }
 
