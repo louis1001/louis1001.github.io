@@ -1,7 +1,6 @@
 html {
     --background-col: rgb(19, 19, 22);
-    --main-col: rgb(209, 174, 110);
-    --heading-col: rgb(219, 151, 95);
+    --main-col: rgb(219, 151, 95);
     --sub-heading-col: rgb(199, 207, 212);
     --sec-heading-col: rgb(170, 201, 241);
     --sec-heading-darker-col: rgb(71, 120, 183);
@@ -11,6 +10,7 @@ html {
 }
 
 body {
+    position: relative;
     background: var(--background-col);
     color: var(--main-col);
     font-family: 'Source Code Pro', monospace;
@@ -43,7 +43,7 @@ a:hover {
 
 *::selection {
     background-color: rgb(56, 56, 56);
-    color: var(--heading-col)
+    color: var(--main-col)
 }
 
 header {
@@ -115,16 +115,16 @@ img {
 }
 
 .small-detail {
-    font-size: .7em;
+    font-size: .4em;
 }
 
 /* Job Section */
 #job-desc {
+    position: fixed;
+    top: 10px;
     font-size: 0.9rem;
     max-width: 285px;
-    margin-top: -60px;
-    margin-left: -35px;
-    background: #ffffff05;
+    background: rgb(27, 27, 30);
     box-shadow: 5px 5px 0 1px #0001;
     border-radius: 8px;
     padding: 10px;
@@ -202,13 +202,14 @@ img {
 
 /* Contact Section */
 #contact {
-    margin-top: 100px;
+    margin: 0 0 100px auto;
     max-width: max(700px, 50vw);
+    text-align: right;
 }
 
 #contact-container {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     flex-wrap: wrap;
     max-width: 100%;
 }
