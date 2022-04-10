@@ -103,23 +103,6 @@ img {
     user-select: none;
 }
 
-/* Translation Button */
-.translate {
-    position: absolute;
-    top: 20px;
-
-    min-width: 6rem;
-    padding: 5px 10px;
-
-    color: rgb(26, 37, 56);
-
-    font-family: 'Roboto', sans-serif;
-
-    /* reset */
-    background: var(--main-col);
-    border: none;
-}
-
 /* Top Banner */
 #top-banner {
     display: flex;
@@ -147,7 +130,7 @@ img {
     padding: 10px;
 }
 
-#job-desc>*{
+#job-desc>* {
     display: block;
     width: auto;
     text-align: left;
@@ -157,7 +140,8 @@ img {
     vertical-align: middle;
 }
 
-#job-desc a, #job-desc span {
+#job-desc a,
+#job-desc span {
     display: inline;
     font-size: 1.2em;
     color: var(--sec-heading-col);
@@ -186,7 +170,7 @@ img {
     border-right: 1px solid white;
 }
 
-#top-banner ul{
+#top-banner ul {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
