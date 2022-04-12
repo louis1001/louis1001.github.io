@@ -166,11 +166,13 @@ img {
 
 /* Skills Section */
 
-#skills {
-    border-right: 1px solid white;
+#top-banner {
+    max-width: 800px;
+    margin: 0 auto;
+    transition: all .5s;
 }
 
-#top-banner ul {
+#skills ul {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
@@ -181,18 +183,22 @@ img {
     margin: 20px;
 }
 
-.skill * {
+.skill img .skill * {
     vertical-align: middle;
 }
 
+.skill span {
+    display: none;
+}
+
 .skill-icon {
-    height: 1em;
+    height: 3em;
     filter: invert(1);
     margin: 0 .1em;
 }
 
 /* Related Skills Section */
-#related-skills h3 {
+#related-skills h4 {
     text-align: right;
 }
 
