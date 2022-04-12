@@ -1,0 +1,53 @@
+pre[language] {
+    color: white;
+    font-weight: lighter;
+    background: rgb(36, 36, 40);
+    /* display: inline-block; */
+    max-width: 100%;
+    margin: 0;
+    padding: 1em;
+    margin-right: 1em;
+    white-space: pre;
+    border-radius: .3em;
+
+    overflow-x: scroll;
+}
+
+pre[language] .literal {
+    color: rgb(243, 203, 138);
+}
+
+pre[language] .literal.string {
+    color: rgb(138, 243, 138);
+}
+
+pre[language] .comment {
+    color: rgb(104, 103, 103);
+}
+
+pre[language] .builtin-type {
+    color: rgb(150, 110, 179);
+}
+
+pre[language] .keyword {
+    color: rgb(110, 154, 179);
+}
+
+pre[language] .identifier {
+    color: rgb(245, 233, 199);
+    font-style: italic;
+}
+
+pre[language] .operator {
+    color: rgb(218, 158, 238);
+    font-style: italic;
+}
+
+pre[language] *::selection {
+    color: unset;
+    filter: saturate(10.0);
+}
+
+pre[language] .literal.special {
+    font-weight: lighter;
+}
